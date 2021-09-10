@@ -1,0 +1,65 @@
+{
+    "geometry": [
+        {
+            "materialId": 1,
+            "type": "segment",
+            "a": [37.5,25],
+            "b": [37.5,50],
+            "color": [1.0,1.0,0.0]
+        },
+        {
+            "materialId": 1,
+            "type": "segment",
+            "a": [0,30],
+            "b": [20,50]
+        },
+        {
+            "materialId": 1,
+            "type": "segment",
+            "a": [45,30],
+            "b": [45,50]
+        },
+        {
+            "materialId": 1,
+            "type": "segment",
+            "a": [10,5],
+            "b": [20,5]
+        },
+        {
+            "materialId": 1,
+            "type": "sphere",
+            "center": [17.5,37.5],
+            "radius": 3
+        },
+        {
+            "materialId": 1,
+            "type": "bbox",
+            "center": [30,18],
+            "size": [3,3]
+        }
+    ],
+    "lights": [
+        {
+            "intensity": [ 10000.0, 10000.0, 10000.0 ],
+            "type": "point",
+            "pos": [25,40]
+        },
+        {
+            "intensity": [ 10000.0, 0.0, 0.0 ],
+            "type": "point",
+            "pos": [5,40]
+        }
+    ],
+    "camera":
+        {
+            "pos": [20,20],
+            "direction": [1,1],
+            "angle": 45,
+            "resolution": 5
+        },
+    
+    "scene_size":
+    {
+        "size":[50,50]
+    }
+}
