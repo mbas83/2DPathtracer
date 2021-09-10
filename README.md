@@ -64,28 +64,28 @@ Example:
 }
 ```
 ###  Geometry Description:
-- materialID:  1 = Diffuse, 2 = Mirror, 3 = Dielectric
-- color field is optional
-- type: segment, sphere, bbox
-- > segment: two points a and b
-- > sphere: center and radius
-- > bbox: center and size
+- 'materialID':  1 = Diffuse, 2 = Mirror, 3 = Dielectric
+- 'color' field is optional (default is [1,1,1])
+- 'type' : 'segment', 'sphere', 'bbox'
+- > segment: two points 'a' and 'b' : [x,y]
+- > sphere: 'center' : [x,y]  and 'radius' : [x,y]
+- > bbox: 'center' : [x,y] and 'size' : [x,y]
 
 ###  Light Description
-- type: point or area
+- type: 'point' or 'area'
 - position:  
- >  area: two points ("a", "b", like segment), point: one point ("pos")
+ >  area: two points ("a" : [x,y], "b": [x,y], like segment), point: one point ("pos": [x,y])
 
 ### Camera
 
-- position: ("pos") position of camera
-- direction: in which direction the camera points 
-- angle : aperture angle of camera
-- resolution: for jittering
+- position: ("pos") position of camera [x,y]
+- direction: in which direction the camera points [x,y] (does not have to be normalized)
+- angle : aperture angle of camera [float]
+- resolution: for jittering [int]
 
 
 ###  Scene size
-Set the size of the rendered area in window 
+Set the size of the rendered area in window [x,y]
 
 ##  Features
 -  Move Objects with mouse
