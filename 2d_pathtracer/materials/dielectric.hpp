@@ -38,7 +38,7 @@ public:
 			_cosThetaT = 0.0f;
 			return 1.0f;
 		}
-		_cosThetaT = std::sqrtf(1.0f - sinThetaTSq);
+		_cosThetaT = std::sqrt(1.0f - sinThetaTSq);
 
 		float Rs = (_eta * cosThetaI - _cosThetaT) / (_eta * cosThetaI + _cosThetaT);
 		float Rp = (_eta * _cosThetaT - cosThetaI) / (_eta * _cosThetaT + cosThetaI);

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../framework.h"
+#include "../../shared/framework/framework.h"
 #include "pathtracer.hpp"
 
 

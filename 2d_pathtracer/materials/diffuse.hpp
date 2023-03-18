@@ -16,7 +16,7 @@ public:
 	{
 		float xi = rng.next();
 		float sinThetaI = 2.0f * xi - 1.0f;
-		float cosThetaI = std::sqrtf(1.0f - sinThetaI * sinThetaI);
+		float cosThetaI = std::sqrt(1.0f - sinThetaI * sinThetaI);
 		return glm::vec2(sinThetaI, cosThetaI * glm::sign(_incident.y));
 	}
 

@@ -1,7 +1,7 @@
 #pragma once
 
 #include "raysampler.h"
-#include "../framework.h"
+#include "../../shared/framework/framework.h"
 
 struct DrawData;
 
