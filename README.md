@@ -1,4 +1,6 @@
-![2DPathTracer Example Render](header.png)
+![2DPathTracer Example Render](header.jpg)
+
+
 
 ﻿# 2D Pathtracer
 
