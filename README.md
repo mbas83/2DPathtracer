@@ -2,7 +2,7 @@
 
 
 
-﻿# 2D Pathtracer
+# 2D Pathtracer
 
 Inspired by https://benedikt-bitterli.me/tantalum/
 
