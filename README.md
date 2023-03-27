@@ -1,3 +1,5 @@
+![2DPathTracer Example Render](header.png)
+
 ﻿# 2D Pathtracer
 
 Inspired by https://benedikt-bitterli.me/tantalum/
